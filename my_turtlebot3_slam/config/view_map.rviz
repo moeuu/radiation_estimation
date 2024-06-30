@@ -1,0 +1,44 @@
+VPanels:
+- Class: rviz/Displays
+  Name: Displays
+  Properties:
+    Displays:
+      - Class: rviz/Grid
+        Name: Grid
+        Value: true
+      - Alpha: 0.7
+        Class: rviz/Map
+        Color Scheme: map
+        Draw Behind: false
+        Frame: map
+        Map Topic: /map
+        Name: Map
+        Queue Size: 10
+        Topic: /map
+      - Class: rviz/Pose
+        Name: Robot Pose
+        Value: true
+      - Class: rviz/TF
+        Name: TF
+        Value: true
+- Class: rviz/Time
+  Name: Time
+  Value: true
+- Class: rviz/Views
+  Name: Views
+  Value: true
+Visualization Manager:
+  Class: ""  # Leave this empty to use the default visualization manager
+  Fixed Frame: map
+  Name: Visualization Manager
+  Status:
+    message: OK
+    name: Displays
+    type: rviz/StatusProperty
+    value: OK
+  Views:
+    Current View: 
+      Class: rviz/TopDownOrtho
+      Name: TopDownOrtho
+      Value: true
+  Value: true
